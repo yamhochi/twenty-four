@@ -7,6 +7,9 @@ import { getAllPosts, sortMDByDate } from "@/utils";
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+
+
+
 ---
 
 <PageLayout meta={{ title: "Home" }}>
@@ -23,11 +26,13 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
 		<h2 class="title mb-4 text-xl">Posts</h2>
+		<p>{allPosts}</p>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				allPostsByDate.map((p) => (
 					<li class="flex flex-col gap-x-2 sm:flex-row">
-						<PostPreview post={p} />
+						<PostPreview post={p} /> 
+						{p.data.tags.map((t) => (<p>{t}</p>))} 
 					</li>
 				))
 			}
