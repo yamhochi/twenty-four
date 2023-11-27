@@ -1,10 +1,10 @@
 ---
 import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
-// import PostPreviewVar from "@/components/blog/PostPreviewVar";
+import PostPreviewL from "@/components/blog/PostPreviewLarge";
 import SocialList from "@/components/SocialList";
 import { getAllPosts, sortMDByDate } from "@/utils";
-import { Image } from "astro:assets";
+
 
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
@@ -13,7 +13,6 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 const showcasePosts = allPostsByDate.filter((post) => post.data.tags.includes("showcase"));
 const archivePosts = allPostsByDate.filter((post) => post.data.tags.includes("archive"));
 
-console.log(showcasePosts);
 ---
 
 <PageLayout meta={{ title: "Home" }}>
@@ -28,31 +27,32 @@ console.log(showcasePosts);
 		</p>
 		<SocialList />
 	</section>
-	<section aria-label="Blog post list" class="mt-16">
+	<section aria-label="Showcase list" class="mt-16">
 		<h2 class="title mb-4 text-xl">Showcase</h2>
-
+		<p class="mb-4">
+			Software Consultancy in Sydney called Thinkmill. I split my time leading designers in project
+			streams and hands on contribution with craft.
+		</p>
+		<ul class="flex sm:flex-row sm:space-y-0 flex-col space-y-4">
+			{
+				showcasePosts.map((p) => (
+					<li class="flex flex-row grow min-w-[320px] gap-x-4 ">
+						<PostPreviewL post={p} />
+					</li>
+				))
+			}
+		</ul>
+	</section>
+	<section aria-label="Archive list" class="mt-16">
+		<h2 class="title mb-4 text-xl">Archive</h2>
 		<p class="mb-4">
 			Software Consultancy in Sydney called Thinkmill. I split my time leading designers in project
 			streams and hands on contribution with craft.
 		</p>
 		<ul class="space-y-4 sm:space-y-2">
 			{
-				showcasePosts.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
-						<div class="aspect-h-8 aspect-w-8 mb-6"></div>
-						<PostPreview post={p} />
-					</li>
-				))
-			}
-		</ul>
-	</section>
-	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Archive</h2>
-		<p>{allPosts}</p>
-		<ul class="space-y-4 sm:space-y-2">
-			{
 				archivePosts.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
+					<li class="flex flex-row gap-x-2">
 						<PostPreview post={p} />
 						{p.data.tags.map((t) => (
 							<p>{t}</p>
