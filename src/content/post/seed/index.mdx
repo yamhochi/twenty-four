@@ -1,7 +1,7 @@
 ---
-title: "SIMO Indoor Map"
-description: "A Single Sign On Solution for CBA employees working in branch"
-publishDate: "15 Jan 2014"
+title: "NSW Government Spatial Data Portal"
+description: "The Central Resource for Sharing and Enabling Environmental Data in NSW"
+publishDate: "30 Aug 2016"
 tags: ["archive"]
 # coverImage:
 #   src: ""
@@ -9,21 +9,36 @@ tags: ["archive"]
 draft: false
 ---
 
-![SSO Diagram](./simo-landing.png)
+![Seed Landing](./seed-landing.jpeg)
 
-This was an Australian Research Council linkage project undertaken at the University of New South Wales School of Geomatic Engineering and Computer Science. I teamed up with a group of researchers to explore the development of a Mobility and Location Information System for the Blind and Visually Impaired (BVI).
-
----
-
-## Technical background
-
-![An indoor map](./simo-map.jpeg)
-
-The internal perception of surroundings by a person with limited or no sight is remarkably different to our own. How do we design an interface which delivers information to this particular group of users in the most accessible and meaningful way?
+SEED (Sharing and Enabling Environmental Data) is a plaform built for storing, sharing and visualising environmental information. It empowers the community to search for and analyse large amounts of data when making critical decisions about the environment.
 
 ---
 
-## Outcomes
+## Map Search Interaction
 
-![Interface](./simo-ui1.jpeg)
-![Interface](./simo-ui2.jpeg)
+![Seed Landing](./seed-mapsearchVideo.png)
+
+While interface of Map Search may seem like a main challenge, the other half of designing a good map search experience is hinged to good technical design of spatial query outlined later in this article.
+
+In terms of a human-centered approach, people were asked to provide feedback on the prototype and draw out what was expected from the map search interface. Having a mid fidelity wireframe helped gathered everyone's thoughts more clearly helped us better align expectations.
+
+---
+
+## Designing the search component
+
+![Seed Landing](./seed-searchComponent.png)
+Trying out different ways give users more flexibility to search and filter.
+
+![Seed Landing](./seed-interactionStates.png)
+Breaking down different states of interaction.
+
+![Seed Landing](./seed-searchPreview.png)
+Pitching the team some ideas how we could make search much easier with preview option.
+
+---
+
+## Spatial query technical background
+
+![Seed Landing](./seed-spatialQuery.png)
+Most people would have familar with the concept of searching for a nearby location. (eg. Using Google Maps to search for nearby amenities, points of interest, or using Uber to find the nearest ride etc.) This also means, finding nearest x,y coordinates in relation to the user’s x,y coordnate.
