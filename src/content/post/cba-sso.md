@@ -35,6 +35,6 @@ The user is asked to reset their 4 digit PIN if they have not logged in for more
 
 ## Flow overview
 
-A straightforward brief nonetheless, I had a lot of fun trying out different animation effects to produce a sleek sign in flow.
+Working on a constrained budget and timeline, I took a lean design approach and guided the development team to iron out any usability frictions and work towards the best possible outcome
 
 ![a diagram of a cell phone that is connected to another cell phone with a number of other cell phones attached to it](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaSSO-Diagram)
