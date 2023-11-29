@@ -17,7 +17,7 @@ draft: false
 
 ## Setup pin
 
-<video width="100%" controls="true"  >
+<video width="100%" autoplay loop muted  >
     <source  src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/cbaSSO-setupPin" > 
 </video>
 This is the flow showing when a new user logs in for the first time, the system takes them through the screens where they would be guided to setup their 4-digit PIN
@@ -26,7 +26,7 @@ This is the flow showing when a new user logs in for the first time, the system 
 
 ## Reset pin
 
-<video width="100%" controls="true"  >
+<video width="100%" autoplay loop muted >
     <source  src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/cbaSSO-resetPin" type="video/mp4" > 
 </video>
 The user is asked to reset their 4 digit PIN if they have not logged in for more than 30 days
