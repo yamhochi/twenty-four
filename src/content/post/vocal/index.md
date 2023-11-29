@@ -1,7 +1,7 @@
 ---
 title: "Vocal Publishing"
 description: "Empowering creators with tools to grow their audience"
-publishDate: "30 Oct 2023"
+publishDate: "30 Oct 2022"
 tags: ["showcase"]
 coverImage:
   src: "./vocal-landing.png"
