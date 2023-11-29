@@ -51,7 +51,7 @@ My approach led to increased confidence in investing in features such as comment
 
 ## First class products anytime anywhere
 
-![a screen shot of a web page with a chart of vocal subs and a line graph of vocal subs](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-crossplatform)
+![two screens of a yellow flower with a bee on top of it and a purple background with a yellow border](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-crossplatform)
 
 The success of the Vocal Reader App indicated that the investments made in product design and strategy were delivering significant value.
 
@@ -61,7 +61,7 @@ The seamless and relevant user experience across different platforms was particu
 
 ## Measuring success
 
-![Landing page of homtrust web and mobile view](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-analytics)
+![two screens of a yellow flower with a bee on top of it and a purple background with a yellow border](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-analytics)
 
 As Vocal's long-term and short-term roadmap continued to unfold, I took an active role in delving into custom reports to gauge usage and adoption with real data.
 
