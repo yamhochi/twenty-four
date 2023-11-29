@@ -4,14 +4,14 @@ description: "A proof of concept to lowering barrier to visual journalism"
 publishDate: "11 Jun 2019"
 tags: ["musings"]
 # coverImage:
-#   src: "./homtrust-landing.png"
+#   src: "./homtrust-landing"
 #   alt: "Landing page of homtrust web and mobile view"
 draft: false
 ---
 
 ## A Proof of concept
 
-![An illustration of device interactions](./smh-landing.png)
+![a white paper with a pink circle on it next to a piece of paper with a pink circle on it](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-landing)
 A proof of concept to enable discovering and surfacing news visually, without intervening with complex newsroom workflows.
 
 Earlier this year, I lead a team of 4 to explore the possibility of providing our readers an visually rich reading experience by leveraging the wealth of photos, artefacts and content that we produce everyday.
@@ -20,7 +20,7 @@ Earlier this year, I lead a team of 4 to explore the possibility of providing ou
 
 ## Value proposition and opportunity analysis
 
-![An illustration of device interactions](./smh-valueProp.png)
+![a set of three black and white posters with a quote from the book, attention is the new commodity](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-valueProp)
 This was our opening slide and value proposition for pursuing this topic, illustrating the urgency and importance of visual storytelling.
 
 While the newsroom does have a graphic desk that constantly pumps out interactives, infographics and bespoke 'graphic' content, it is by no means a trivial task by those planning for it and also those who are responsible for producing it. Whether the effort eventually converts meaningful audiences is besides the point, by all means, it serves maybe one piece of news at a time, and would last 24 hours or up to a week at most.
@@ -33,7 +33,7 @@ It did lead us to speculate what makes the former work and how we might leverage
 
 ## Visualisation and prototyping
 
-![Image](./smh-prototyping.png)
+![a couple of screens showing news on a cell phone and a web page on a cell phone with pictures of people on it](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-prototyping)
 
 Left (News at a Glance): A visualisation of how daily stories can be presented in a more condensed format, users can swipe through each chip to get a sense of what's happening on that day and enhances their ability to discover stories that might otherwise be hidden once they leave the homepage.
 
@@ -43,7 +43,7 @@ Right (Related tags): Stories that are related to a topic are presented as tiles
 
 ## Reimagining the process
 
-![Image](./smh-viewStories.gif)
+![a prototype showing a cellphone with a series of news and photography](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-viewStories)
 
 Our syndicate stories and photojournalists together contributes a significant amount of visual materials to use but there are simply limited resources to 'produce' them into actual articles. What if there were better ways to showcase these visual materials and allow readers to simply browse through a visual library of what's happening each day?
 
@@ -51,7 +51,7 @@ Our syndicate stories and photojournalists together contributes a significant am
 
 ## Workflow and audience impact
 
-![Image](./smh-audienceDiagram.png)
+![a diagram of a website with a description of the site and the](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-audienceDiagram)
 
 Currently, the way to commission a piece of interactive story is to go through the normal channel writing the story, commissioning graphics desk resources, producing and editing. Not only is it time consuming and can only be done one piece at a time. The goal of this process is to highlight the content of a particular story, and making sure people are spending time on that article.
 
@@ -59,8 +59,8 @@ Currently, the way to commission a piece of interactive story is to go through t
 
 ## Articulation and Presentation
 
-![Image](./smh-articulate.png)
-![Image](./smh-articulatePresent.png)
+![a page with a line of text and a line of circles in the middle of the page, and a line of text on the left side of the page](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-articulate)
+![a blue brochure with a black background and a blue and white text box below it that says new, loyal, best prospects and subsribers](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-articulatePresent)
 
 But visual stories can do more than just that. The format as shown below, is automated and requires much less 'production' effort. Although it is less detailed than the former but it is brief and dense and it allows people to consume information in a way that is more similar to 'browsing' than reading in depth. It allows a reader to read wider coverage in a short amount of time and allowing more stories to gain airtime that would otherwise get buried over time.
 
@@ -68,9 +68,9 @@ But visual stories can do more than just that. The format as shown below, is aut
 
 ## Solution design and live demo
 
-{/* TODO: Add video */}
-
-![Image](./smh-implementation.png)
+<video width="100%" autoplay loop muted >
+    <source  src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/smh-demo" type="video/mp4" > 
+</video>
 
 With that in mind, we set our goal to implement a solution that ingests what's already in the CMS and leverage an open source react library called react-insta-stories to help us with the rendering and displaying of content. This makes sure that we honour what has already been approved and published on the site, and only testing whether augmenting the reading experience can create the impact intended.
 
