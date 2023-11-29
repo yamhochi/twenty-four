@@ -4,7 +4,7 @@ description: " Designing tools to better understand, communicate and distribute 
 publishDate: "11 Nov 2018"
 tags: ["archive"]
 # coverImage:
-#   src: "./homtrust-landing.png"
+#   src: "./homtrust-landing"
 #   alt: "Landing page of homtrust web and mobile view"
 draft: false
 ---
@@ -20,7 +20,7 @@ The Data and Decision Science division was a group of marketers, analysts and sc
 
 ## Current state audits, interviews and findings summary
 
-![a black and white graphic with the words, stream of work, tactical, strategic and goals](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-priority.png)
+![a black and white graphic with the words, stream of work, tactical, strategic and goals](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-priority)
 The first few weeks was all about trying to understand different workflows and reporting needs across the department. I learned that reporting needs are not only associated with the usual business goals (eg. engagement, activation, conversion, retention etc.), but much has to do with how the organisation operates and shares knowledge across the board.
 
 Based on my initial findings, I drew up some recommendations and initiatives that I can help my team with. As indicated below, some of the work would be come as requests from other teams (most of them are short-term tactical efforts to work around current challenges), some would be longer term strategic efforts and would take more time to fruition. However, giving each 'initiative' a clear goal helps the team understand the different nature of the work, the effort we should spend, and how it should be reported up and help management understand the impact we're making for them.
@@ -29,7 +29,7 @@ Based on my initial findings, I drew up some recommendations and initiatives th
 
 ## Fostering Trust
 
-![a screenshot of a web page with a number of items on the page with a side drawer showing help](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-webHelp.png)
+![a screenshot of a web page with a number of items on the page with a side drawer showing help](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-webHelp)
 **To understand deeply is being able to ask the right questions, find answers, and have the ability interrogate our own doubts and confirm our biases about data.**
 
 One of the main challenges when it comes to adopting a single source of truth is that people find it hard to trust the results because they couldn't see the raw data that aligns to the real world. Especially for data agents, they would rather get access to the database and create their own results because they could have more control over the explanation of the results.However, some calculations and normalising are performed in the self service tools (Tableau), which is why governance team is trying to encourage a single source of truth through Tableau rather than the database. On the other hand, Tableau has its constraints user interaction and performance due to the way it was designed initially order to help data agents better understand what they were seeing in Tableau, I found a better way to work around those constraints and designed a table using ReactTables that would still be reading the correct information using Tableau's data API instead of the interface. This allowed data agents to more freely interact with and interrogate the data behind the self service tool, resulting in better understanding and trust with the results.
@@ -46,14 +46,14 @@ Other than that, there were a number of nuances behind the calculations that wer
 
 ## Audience led IA Reconfiguration
 
-![a screenshot of the before and after screenshot of the site's main menu](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-menu.png)
+![a screenshot of the before and after screenshot of the site's main menu](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-menu)
 The navigational model of the initial design had good intentions to be more attentive to individual preferences. But this didn't help in discoverability of the metrics available. This resulted in poorly adopted dashboards that would have otherwise saved data agents time in producing custom reports.I proposed a menu structure that better aligns with the organisational structure and intent of using the self-service platform. Since the improvement, some of the dashboard views have increased significantly, resulting in better understanding and usage of the metrics our team provided.
 
 ---
 
 ## Data visualisation and Narrative
 
-![Some image](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-dataviz.png)
+![Some image](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/cbaAnalytics-dataviz)
 **Data prototyping is about identifying the possibilities that the data offers in terms of a meaningful visual experience and narrative.**
 
 Majority of the time, a simple bar chart and table is enough to get an idea across quickly. But sometimes, through experimentation, trial and error, with different ways of representing data, we were able to discover patterns and insights that a bar chart couldn't provide. On the other spectrum, sometimes, the right juxtaposition of text and symbols communicates results much quicker than a chart. Throughout my time here, I've tried out different ways to represent the same family of metrics. This includes investigating the feasibility of technology / platform (eg. Tableau vs D3.js vs Excel), choosing the right chart, researching novel ways to represent specific results. I've created a repository to document their pros and cons, constraints and context of use.This works as an ideation tool / tips and tricks document to help analysts better communicate their insights and reports.
