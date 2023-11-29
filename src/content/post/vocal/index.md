@@ -5,13 +5,13 @@ publishDate: "30 Oct 2023"
 tags: ["showcase"]
 coverImage:
   src: "./vocal-landing.png"
-  alt: "Vocal app screens"
+  alt: "two iphone screens with the words vocal on the screen and the text vocal on the back of the phone"
 draft: false
 ---
 
 ## Background
 
-![Landing page of homtrust web and mobile view](./vocal-landing.png)
+![two iphone screens with the words vocal on the screen and the text vocal on the back of the phone](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-landing)
 
 Vocal ($VOCL), a publishing platform created by Creatd, is a unique platform designed to empower individuals to explore their creativity through writing and build meaningful connections within their community. Thinkmill has been a dedicated technology partner for Vocal since its inception.
 
@@ -21,7 +21,7 @@ This case study provides insights into the transformative journey of Vocal's des
 
 ## Design foundations & product strategy
 
-![Landing page of homtrust web and mobile view](./vocal-foundations.png)
+![a cell phone with a picture of a woman on the screen and a description of the phone's profile](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-foundations)
 
 1. With a fresh team on board and investments in re-platforming the front-end and back-end codebase, my initial focus was on enhancing Vocal's design foundations to support future scalability.
 2. The development of a robust design system allowed for quicker and more efficient feature rollouts, paving the way for a more streamlined user experience.
@@ -31,7 +31,7 @@ This case study provides insights into the transformative journey of Vocal's des
 
 ## Understanding our audience
 
-![Landing page of homtrust web and mobile view](./vocal-research.png)
+![a screen shot of a cell phone with a group of people on it and the text support Isabella Davilla on the screen](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-research)
 
 Recognising the significance of understanding user needs and preferences, I led the team to embark on a comprehensive 3-month discovery journey. Over 3,000 users were surveyed, and numerous interviews were conducted across the US, UK, Australia, and New Zealand.
 
@@ -41,7 +41,7 @@ This research yielded both qualitative and quantitative insights, which were ins
 
 ## Shaping features customers love
 
-![Landing page of homtrust web and mobile view](./vocal-comments.png)
+![a cell phone with a text message on the screen and a keyboard on the side of the phone with the text message on the screen](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-comments)
 
 From the research findings, a range of potential features emerged. To assist the business in making informed decisions, I evaluated each feature using cost and opportunity weightings. This analysis served as a valuable tool for determining both short-term and long-term priorities.
 
@@ -51,7 +51,7 @@ My approach led to increased confidence in investing in features such as comment
 
 ## First class products anytime anywhere
 
-![Landing page of homtrust web and mobile view](./vocal-crossplatform.png)
+![a screen shot of a web page with a chart of vocal subs and a line graph of vocal subs](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-crossplatform)
 
 The success of the Vocal Reader App indicated that the investments made in product design and strategy were delivering significant value.
 
@@ -61,7 +61,7 @@ The seamless and relevant user experience across different platforms was particu
 
 ## Measuring success
 
-![Landing page of homtrust web and mobile view](./vocal-analytics.png)
+![Landing page of homtrust web and mobile view](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-analytics)
 
 As Vocal's long-term and short-term roadmap continued to unfold, I took an active role in delving into custom reports to gauge usage and adoption with real data.
 
