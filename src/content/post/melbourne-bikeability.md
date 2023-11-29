@@ -17,7 +17,7 @@ This is a recording of my winning entry to the Geonext Hackathon held in Novembe
 
 ## How far do people cycle to work?
 
-![20 KM Cycling in melbourne](./melbourne-20km.png)
+![a map of a city with a blue line on the middle of the map showing a 20 km catchment](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/melbourne-20km)
 
 To make this explanation easier, let's say the cost of driving is $10 per km. Riding a bike is much cheaper but there are still costs associated with maintaining the bike, purchasing safety gear etc and let's say it costs someone $1 to cycle 1 km. And if we assume an average person is willing to pay up to $20 to cycle to work. This is the spatial catchment for those who could afford to cycle to work in Melbourne CBD.
 
@@ -27,7 +27,7 @@ However, varying road conditions across the catchment may make it more difficult
 
 ## What does 20kms actually look like?
 
-![20 KM Cycling in melbourne](./melbourne-20kmCost.png)
+![a map of the city of new york with a red line in the middle of the map and a blue line in the middle of the map](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/melbourne-20kmCost)
 Here, I came up with solution to estimate the cycling catchment based on a cycle budget of $20 using open source datasets from VicRoads portal. First, let's take a look at current road conditions within this 20km catchment. Blue roads indicate cycle paths that are "easier" for the rider therefore cheaper. Red lines indicate cycle paths that are more "difficult" to cycle on therefore may be more expensive to cycle on.
 
 Distance costs include:
@@ -43,12 +43,12 @@ Distance costs include:
 
 ## Real Bikeable Distance
 
-![20 KM Cycling in melbourne](./melbourne-20kmReal.png)
+![a blue and white map of a city with lines in the middle of the map showing a smaller catchment](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/melbourne-20kmReal)
 As a result, an average persons's bikeable distance may be cut short significantly for a budget of $20. The map below shows the "bikeable" distance after apply costs to travel origins of over 1700 locations in Melbourne Metropolitan area.
 
 ---
 
 ## Potential bike paths to optimise
 
-![20 KM Cycling in melbourne](./melbourne-optimise.png)
+![a map of a city with a blue line in the middle of the map and a blue line in the middle of the map](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/melbourne-optimise)
 Another insight drawn from this is showing existing areas that are ideal for cycling. Knowing where the bottlenecks are, whether the whole path from A to B is diffult or if there are only small sections of the road that needs fixing, helps authorities make decisions about where or how they should invest in improving the overall city's wellbeing.
