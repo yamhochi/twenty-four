@@ -51,7 +51,7 @@ My approach led to increased confidence in investing in features such as comment
 
 ## First class products anytime anywhere
 
-![two screens of a yellow flower with a bee on top of it and a purple background with a yellow border](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-crossplatform)
+![two screens of a yellow flower with a bee on top of it and a purple background with a yellow border](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-cross)
 
 The success of the Vocal Reader App indicated that the investments made in product design and strategy were delivering significant value.
 
