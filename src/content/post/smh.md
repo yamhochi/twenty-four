@@ -43,7 +43,13 @@ Right (Related tags): Stories that are related to a topic are presented as tiles
 
 ## Reimagining the process
 
-![a prototype showing a cellphone with a series of news and photography](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/smh-viewStories)
+<div class="w-full my-9 p-8 text-center bg-[#E8EDEF] overflow-hidden">
+  <div class="overflow-hidden rounded inline-block items-center max-h-[37.5rem] h-auto w-auto"> 
+    <video autoplay="" class="w-full h-full m-0 object-contain" loop="" muted="" playsinline="">
+      <source type="video/mp4" src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/smh-viewStories">
+    </video>
+  </div>
+</div>
 
 Our syndicate stories and photojournalists together contributes a significant amount of visual materials to use but there are simply limited resources to 'produce' them into actual articles. What if there were better ways to showcase these visual materials and allow readers to simply browse through a visual library of what's happening each day?
 
