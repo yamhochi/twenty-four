@@ -2,7 +2,7 @@ import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Chris Williams",
+	author: "Andie Yam",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
 	title: "Astro Theme Cactus",
 	// Meta property used as the default description meta property
@@ -22,9 +22,9 @@ export const siteConfig: SiteConfig = {
 	},
 	// Include view-transitions: https://docs.astro.build/en/guides/view-transitions/
 	includeViewTransitions: false,
-	webmentions: {
-		link: "https://webmention.io/astro-cactus.chriswilliams.dev/webmention",
-	},
+	// webmentions: {
+	// 	link: "https://webmention.io/astro-cactus.chriswilliams.dev/webmention",
+	// },
 };
 
 // Used to generate links in both the Header & Footer.
@@ -37,8 +37,8 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		title: "About",
 		path: "/about/",
 	},
-	{
-		title: "Blog",
-		path: "/posts/",
-	},
+	// {
+	// 	title: "Blog",
+	// 	path: "/posts/",
+	// },
 ];
