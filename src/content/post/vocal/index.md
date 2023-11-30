@@ -11,7 +11,15 @@ draft: false
 
 ## Background
 
-![two iphone screens with the words vocal on the screen and the text vocal on the back of the phone](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-landing)
+<!-- ![two iphone screens with the words vocal on the screen and the text vocal on the back of the phone](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-landing) -->
+
+<div class="w-full my-9 p-8 text-center bg-[#DDE1E3] overflow-hidden">
+  <div class="overflow-hidden rounded-xl inline-block items-center max-h-[37.5rem] h-screen w-auto"> 
+    <video autoplay="" class="w-full h-full m-0 object-contain" loop="" muted="" playsinline="">
+      <source type="video/mp4" src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/vocal-landing">
+    </video>
+  </div>
+</div>
 
 Vocal ($VOCL), a publishing platform created by Creatd, is a unique platform designed to empower individuals to explore their creativity through writing and build meaningful connections within their community. Thinkmill has been a dedicated technology partner for Vocal since its inception.
 
