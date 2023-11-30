@@ -17,18 +17,27 @@ draft: false
 
 ## Setup pin
 
-<video width="100%" autoplay loop muted  >
-    <source  src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/cbaSSO-setupPin" > 
-</video>
+<div class="w-full my-9 p-8 text-center bg-[#DDE1E3] overflow-hidden">
+  <div class="overflow-hidden rounded inline-block items-center max-h-[37.5rem] h-screen w-auto"> 
+    <video autoplay="" class="w-full h-full m-0 object-contain" loop="" muted="" playsinline="">
+      <source type="video/mp4" src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/cbaSSO-setupPin">
+    </video>
+  </div>
+</div>
 This is the flow showing when a new user logs in for the first time, the system takes them through the screens where they would be guided to setup their 4-digit PIN
 
 ---
 
 ## Reset pin
 
-<video width="100%" autoplay loop muted >
-    <source  src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/cbaSSO-resetPin" type="video/mp4" > 
-</video>
+<div class="w-full my-9 p-8 text-center bg-[#DDE1E3] overflow-hidden">
+  <div class="overflow-hidden rounded inline-block items-center max-h-[37.5rem] h-screen w-auto"> 
+    <video autoplay="" class="w-full h-full m-0 object-contain" loop="" muted="" playsinline="">
+      <source type="video/mp4" src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/cbaSSO-resetPin">
+    </video>
+  </div>
+</div>
+
 The user is asked to reset their 4 digit PIN if they have not logged in for more than 30 days
 
 ---
