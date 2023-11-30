@@ -9,7 +9,7 @@ tags: ["archive"]
 draft: false
 ---
 
-![Landing page of homtrust web and mobile view](./afr-cover.png)
+![three screens of a website with a blue background showing all subscribers table, a welcome email and the homepage of the Australian Financial Review](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-landing.png)
 
 I had the opportunity recently to work with the Financial Review's B2B team to refresh and modernise current workflows to scale up the business
 
@@ -21,22 +21,27 @@ I lead the overall design execution phase from defining application interaction 
 
 I setup interaction models and information architecture and app structure that best fits the mental models and user journeys when using the app. Taking into account how we systematically hide and show navigation items based on users’ access levels. Taking into account future state and how easily can we accommodate more sections and cater for more complex journeys. And how will I be able to easily evolve these patterns to cater for future additions.
 
-![Landing page of homtrust web and mobile view](./afr-components.png)
-![Landing page of homtrust web and mobile view](./afr-designdocs.png)
+![an illustration of components, buttons, cards, icons](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-components.png)
+![an illustration of a table component and documentation of the table design](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-designdocs.png)
 
 ---
 
 ## UI & UX Design
 
-![Landing page of homtrust web and mobile view](./afr-prototype.png)
-![Landing page of homtrust web and mobile view](./afr-themed.png)
+<video width="100%" autoplay loop muted >
+    <source  src="https://res.cloudinary.com/ddgt1wiwm/video/upload/f_auto:video,q_auto/v1/twenty-four-assets/afr-prototype" type="video/mp4" > 
+</video>
+
+<!-- ![Landing page of homtrust web and mobile view](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-prototype.mp4) -->
+
+![three screens of a web page with a blue backgrounds showing a user profile and role list and a welcome screen upon login](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-themed)
 
 ---
 
 ## Mapping current state of the business
 
-![Landing page of homtrust web and mobile view](./afr-research.png)
-![Landing page of homtrust web and mobile view](./afr-blueprint.png)
+![A photograph of a 3 employees looking at a whiteboard and having discussions](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-research.png)
+![An illustration showing complex business workflows](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-blueprint.png)
 
 Acknowledging that things are messy, ambiguous or even hidden at this point. This step really is about engagement and learning, getting the right people in the room and talk about what they do, and let things unfold usually. This seemingly casual step can usually mean whether we go ahead with something or not. A few key things i’ve noticed made me think whether we would even be doing this in the first place had we not done it ‘right’? Here some of them are obvious and some of require more planning even though not obvious are:
 
@@ -48,7 +53,7 @@ Acknowledging that things are messy, ambiguous or even hidden at this point. Thi
 
 ## Customer feedback, risks, opportunities & roadmap
 
-![Landing page of homtrust web and mobile view](./afr-opportunities.png)
+![A diagram showing 4 quardrants of opportunities anaysis - risks and costs, opportunities, likely and unlikely](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-opportunities.png)
 
 After a few rounds of workshops and strategy sprints, patterns began to emerge it became more obvious what were the business issues in hand. For example, client information was passed through different systems by hand, and people relied on manual processes to constantly lookup and update information. Not to mention each of those systems were built a long time ago and no longer fit for purpose. Together, it created a yarn of problems to solve and our jobs were to figure out how to pinpoint each problem and prioritise which ones we could tackle first.
 
@@ -62,7 +67,7 @@ As one of the main cross functional partners, my role was to use visual artefact
 
 ## Aligning future state to business goals
 
-![Landing page of homtrust web and mobile view](./afr-whiteboarding.png)
+![a complex diagram with boxes and arrows showing business workflows](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-whiteboarding.png)
 
 I communicated design ideas to stakeholders without being bogged down with design details too early, apart from using abstract wireframes are by writing down the intent of each screen. Ideation of different UI’s are just another way to present that screen to the user and not everyone is great at giving feedback on abstract visual. This worked well for those who can give better feedback on written communication, or a mixture of both.
 
@@ -72,7 +77,7 @@ The goal here, is to get business, product and engineering understanding substan
 
 ## Success frameworks
 
-![Landing page of homtrust web and mobile view](./afr-validation.png)
+![a white and black info sheet showing goals, opportunities, validation and hypothesis framework ](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/afr-validation.png)
 
 When it came to launching, I personally keep a log of ‘design bugs’ that I thought could be easily fixed that could solve some usability issues.
 
