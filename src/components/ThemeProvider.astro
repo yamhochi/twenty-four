@@ -4,7 +4,7 @@
 		const storedTheme = typeof localStorage !== "undefined" && localStorage.getItem("theme");
 		return (
 			// storedTheme || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark")
-			console.log(storedTheme, "storedTheme"),
+			// if no stored theme, defaut to light
 			storedTheme || "light"
 		);
 	}
@@ -38,7 +38,6 @@
 
 	// initial setup 
 	setTheme(getUserPref());
-	console.log(getUserPref())
 	
 
 	// View Transitions hook to restore theme
@@ -47,6 +46,5 @@
 	// listen for theme-change custom event, fired in src/components/ThemeToggle.astro
 	document.addEventListener("theme-change", (e) => {
 		setTheme(e.detail.theme);
-		console.log(e.detail.theme)
 	});
 </script>
