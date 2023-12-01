@@ -30,10 +30,6 @@ const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("mus
 	</section>
 	<section aria-label="Showcase list" class="mt-16">
 		<h2 class="title mb-4 text-xl">Showcase</h2>
-		<p class="mb-4">
-			Software Consultancy in Sydney called Thinkmill. I split my time leading designers in project
-			streams and hands on contribution with craft.
-		</p>
 		<ul class="flex sm:flex-row sm:space-y-0 flex-col space-y-4">
 			{
 				showcasePosts.map((p) => (
@@ -45,11 +41,7 @@ const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("mus
 		</ul>
 	</section>
 	<section aria-label="Musing list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Archive</h2>
-		<p class="mb-4">
-			Software Consultancy in Sydney called Thinkmill. I split my time leading designers in project
-			streams and hands on contribution with craft.
-		</p>
+		<h2 class="title mb-4 text-xl">Archived Projects</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				archivePosts.map((p) => (
@@ -62,10 +54,7 @@ const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("mus
 		</ul>
 	</section>
 	<section aria-label="Archive list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Musings</h2>
-		<p class="mb-4">
-			Interesting things
-		</p>
+		<h2 class="title mb-4 text-xl">Product & Tech Musings</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				musingPosts.map((p) => (
