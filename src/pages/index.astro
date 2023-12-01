@@ -5,7 +5,6 @@ import PostPreviewL from "@/components/blog/PostPreviewLarge";
 import SocialList from "@/components/SocialList";
 import { getAllPosts, sortMDByDate } from "@/utils";
 
-
 // const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts);
@@ -13,56 +12,65 @@ const allPostsByDate = sortMDByDate(allPosts);
 const showcasePosts = allPostsByDate.filter((post) => post.data.tags.includes("showcase"));
 const archivePosts = allPostsByDate.filter((post) => post.data.tags.includes("archive"));
 const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("musings"));
-
 ---
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
 		<h1 class="title mb-6">Hello World!</h1>
 		<p class="mb-4">
-			Hi there, I'm Andie. Product designer dabbling in the intersection of business and technical
-			endeavours. Here are a collection of work done in the past 10 years. Some of them are pretty
-			raw . Currently, I'm a senior product designer at a Software Consultancy in Sydney called
-			Thinkmill. I split my time leading designers in project streams and hands on contribution with
-			craft.
+			I'm Andie, I'm a Product Designer dabbling in the intersection of business and technological
+			innovations. These are a collection of work I've done over the past 10+ years.
+		</p>
+		<p class="mb-4">
+			Currently, I'm a Senior Product Designer at <a
+				class="font-medium"
+				target="_blank"
+				rel="noopener noreferrer"
+				href="#"
+				aria-label="external link">Thinkmill</a
+			> where I split my time between hands on contribution design work, team guidance and
+			stakeholder alignment.
 		</p>
 		<SocialList />
 	</section>
 	<section aria-label="Showcase list" class="mt-16">
 		<h2 class="title mb-4 text-xl">Showcase</h2>
-		<ul class="flex sm:flex-row sm:space-y-0 flex-col space-y-4">
-			{
-				showcasePosts.map((p) => (
-					<li class="flex flex-row grow min-w-[320px] gap-x-4 ">
-						<PostPreviewL post={p} />
-					</li>
-				))
-			}
-		</ul>
-	</section>
-	<section aria-label="Musing list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Archived Projects</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				archivePosts.map((p) => (
-					<li class="flex flex-row gap-x-2">
-						<PostPreview post={p} />
-
-					</li>
-				))
-			}
-		</ul>
-	</section>
-	<section aria-label="Archive list" class="mt-16">
-		<h2 class="title mb-4 text-xl">Product & Tech Musings</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				musingPosts.map((p) => (
-					<li class="flex flex-row gap-x-2">
-						<PostPreview post={p} />
-					</li>
-				))
-			}
-		</ul>
+		<p class="mb-4">
+			Vocal and Homtrust are products of long term research, design, and leadership over the past 2
+			years at Thinkmill, summarised into key points.
+			<ul class="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
+				{
+					showcasePosts.map((p) => (
+						<li class="flex min-w-[320px] grow flex-row gap-x-4 ">
+							<PostPreviewL post={p} />
+						</li>
+					))
+				}
+			</ul>
+		</p>
+		<section aria-label="Musing list" class="mt-16">
+			<h2 class="title mb-4 text-xl">Archived Projects</h2>
+			<ul class="space-y-4 sm:space-y-2">
+				{
+					archivePosts.map((p) => (
+						<li class="flex flex-row gap-x-2">
+							<PostPreview post={p} />
+						</li>
+					))
+				}
+			</ul>
+		</section>
+		<section aria-label="Archive list" class="mt-16">
+			<h2 class="title mb-4 text-xl">Product & Tech Musings</h2>
+			<ul class="space-y-4 sm:space-y-2">
+				{
+					musingPosts.map((p) => (
+						<li class="flex flex-row gap-x-2">
+							<PostPreview post={p} />
+						</li>
+					))
+				}
+			</ul>
+		</section>
 	</section>
 </PageLayout>
