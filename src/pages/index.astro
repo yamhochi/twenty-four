@@ -17,20 +17,17 @@ const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("mus
 <PageLayout meta={{ title: "Home" }}>
 	<section>
 		<h1 class="title mb-6">Hello World!</h1>
-		<p class="mb-4">
+		<p class="mb-4" class="leading-relaxed">
 			I'm Andie, I'm a Product Designer dabbling in the intersection of business and technological
-			innovations. These are a collection of work I've done over the past 10+ years.
+			innovations. Here's a collection of my work over the past 10+ years. Currently, I'm a Senior Product Designer at <a
+			class="text-accent"
+			target="_blank"
+			rel="noopener noreferrer"
+			href="https://www.thinkmill.com.au/"
+			aria-label="external link">Thinkmill</a
+		> where I split my time between hands on contribution, team guidance & alignment.
 		</p>
-		<p class="mb-4">
-			Currently, I'm a Senior Product Designer at <a
-				class="font-medium"
-				target="_blank"
-				rel="noopener noreferrer"
-				href="#"
-				aria-label="external link">Thinkmill</a
-			> where I split my time between hands on contribution design work, team guidance and
-			stakeholder alignment.
-		</p>
+
 		<SocialList />
 	</section>
 	<section aria-label="Showcase list" class="mt-16">
