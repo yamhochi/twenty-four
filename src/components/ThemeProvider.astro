@@ -34,8 +34,9 @@
 		}
 	}
 
-	// initial setup
+	// initial setup 
 	setTheme(getUserPref());
+	
 
 	// View Transitions hook to restore theme
 	document.addEventListener("astro:after-swap", () => setTheme(getUserPref()));

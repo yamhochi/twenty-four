@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "Andie Yam personal site",
+	"short_name": "Andie_Yam",
+	"description": "Andie Yam's portfolio and personal site",
 	"icons": [
 		{
 			"src": "/192x192.png",
@@ -16,6 +16,6 @@
 	],
 	"start_url": "/",
 	"background_color": "#1d1f21",
-	"theme_color": "#2bbc8a",
+	"theme_color": "#4B58CF",
 	"display": "standalone"
 }

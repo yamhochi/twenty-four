@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 
 import PageLayout from "@/layouts/Base";
-import aboutImg from "@/assets/about-astro.png";
+import SocialList from "@/components/SocialList";
 
 const meta = {
 	title: "About",
@@ -13,36 +13,73 @@ const meta = {
 <PageLayout meta={meta}>
 	<div class="space-y-6">
 		<h1 class="title">About</h1>
-		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
-		</p>
-		<div class="flex justify-center">
-			<Image
-				src={aboutImg}
-				alt="A cartoon cactus looking at the 'Astro.build' logo"
-				loading="eager"
-				fetchpriority="high"
-			/>
+
+		<div class="flex sm:flex-row gap-x-12 gap-y-12 flex-col">
+			
+			<div class="space-y-6 order-last sm:order-first">
+				<p class="leading-relaxed">
+					Hi there 👋 I’m Andie (she/her), this is a place where I document my journey working in
+					software & design since 2014.
+				</p>
+				<p class="leading-relaxed">
+					In my previous life, I was an excel whiz & map wrangler helping economists and town
+					planners make better policy decisions with data. Through digital transformations in that sector, I discovered software development which ignited my curiousity in code, product and design.
+				</p>
+				<p class="leading-relaxed">
+					Highlights from this journey is knowing that the products that I helped build are enabling
+					people to live and work better through innovative use of technology. I'm always in awe how thoughtful design decisions can make a huge difference in making technology more palatable and less alienating to all especially those experiencing it for the first time.
+				</p>
+				<h2 class="title text-lg">Currently tinkering</h2>
+				<ul class="list-inside space-y-1 list-disc">
+					<li>
+						Payments technology
+						<a
+							class="text-xs cactus-link"
+							target="_blank" text-xs
+							rel="noopener noreferrer"
+							href="https://courses.cfte.education/payments-in-digital-finance-specialisation/"
+							aria-label="external link">course ↗︎</a>
+					</li>
+					<li>
+						Attendance and payment tracking solution <a
+							class="text-xs cactus-link inline-block"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://github.com/yamhochi/keystone-learning"
+							aria-label="external link">github repo ↗︎</a>
+					</li>
+					<li>
+						Perceptually uniform colours <a
+							class="text-xs cactus-link inline-block"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://github.com/yamhochi/theme-project"
+							aria-label="external link">github repo ↗︎</a>
+					</li>
+					<li>
+						Improving this website with
+						<a
+							class="text-xs cactus-link inline-block"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://github.com/yamhochi/twenty-four"
+							aria-label="external link">Astro.js ↗︎</a
+						> 
+					</li>
+				</ul>
+			</div>
+
+				<Image
+					src="https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/asset-headshot"
+					alt="andie yam headshot"
+					loading="eager"
+					fetchpriority="high"
+					class="object-cover w-[120px] min-w-[120px] h-[96px] max-h-[96px] overflow-hidden"
+					height="1200"
+					width="1800"
+				/>
+
 		</div>
-		<p>Here are my some of my awesome built in features:</p>
-		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
-		</ul>
-		<p>
-			Clone or fork my <a
-				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="github repository">repo</a
-			> if you like me!
-		</p>
+		<SocialList />
 	</div>
 </PageLayout>
