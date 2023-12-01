@@ -2,13 +2,18 @@
 import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
 import PostPreviewL from "@/components/blog/PostPreviewLarge";
+import PostPreviewL from "@/components/blog/PostPreviewLarge";
 import SocialList from "@/components/SocialList";
 import { getAllPosts, sortMDByDate } from "@/utils";
 
 // const MAX_POSTS = 10;
+// const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts);
 
+const showcasePosts = allPostsByDate.filter((post) => post.data.tags.includes("showcase"));
+const archivePosts = allPostsByDate.filter((post) => post.data.tags.includes("archive"));
+const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("musings"));
 const showcasePosts = allPostsByDate.filter((post) => post.data.tags.includes("showcase"));
 const archivePosts = allPostsByDate.filter((post) => post.data.tags.includes("archive"));
 const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("musings"));
