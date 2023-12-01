@@ -14,9 +14,7 @@ const allPostsByDate = sortMDByDate(allPosts);
 const showcasePosts = allPostsByDate.filter((post) => post.data.tags.includes("showcase"));
 const archivePosts = allPostsByDate.filter((post) => post.data.tags.includes("archive"));
 const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("musings"));
-const showcasePosts = allPostsByDate.filter((post) => post.data.tags.includes("showcase"));
-const archivePosts = allPostsByDate.filter((post) => post.data.tags.includes("archive"));
-const musingPosts = allPostsByDate.filter((post) => post.data.tags.includes("musings"));
+
 ---
 
 <PageLayout meta={{ title: "Home" }}>
