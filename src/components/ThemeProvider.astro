@@ -3,7 +3,9 @@
 	function getUserPref() {
 		const storedTheme = typeof localStorage !== "undefined" && localStorage.getItem("theme");
 		return (
-			storedTheme || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "light")
+			// storedTheme || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark")
+			console.log(storedTheme, "storedTheme"),
+			storedTheme || "light"
 		);
 	}
 
@@ -45,5 +47,6 @@
 	// listen for theme-change custom event, fired in src/components/ThemeToggle.astro
 	document.addEventListener("theme-change", (e) => {
 		setTheme(e.detail.theme);
+		console.log(e.detail.theme)
 	});
 </script>
