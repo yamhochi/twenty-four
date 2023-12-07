@@ -4,8 +4,11 @@ description: "Financial platform for short term accommodation and property manag
 publishDate: "11 Nov 2023"
 tags: ["showcase"]
 coverImage:
-  src: "./homtrust-greenfield.png"
+  # src: "./homtrust-greenfield.png"
+  src: "https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-greenfield"
   alt: "a screenshot of a screen shot of a payment form with a credit card in the center of the screen"
+  width: "1280"
+  height: "1450"
 draft: false
 ---
 
@@ -20,7 +23,7 @@ In response to these issues and to better meet customer needs, Thinkmill was com
 
 ## Design Leadership and Bridging the Gap
 
-![a screen shot of a web page with three people on the screen and one person on the web page](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-collaborate.png)
+![a screen shot of a web page with three people on the screen and one person on the web page](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-collaborate)
 
 As the design lead for this project, my role was pivotal in bridging the gap between research, business, and technical solutions to meet the project's criteria. Homtrust was a greenfield project, demanding specialised knowledge in accounting.
 
@@ -32,7 +35,7 @@ Collaborating closely with stakeholders, I drove the solution narrative by visua
 
 ## Building an Accounting Engine from Scratch
 
-![a screenshot of a screen shot of a payment form with a credit card in the center of the screen](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-greenfield.png)
+![a screenshot of a screen shot of a payment form with a credit card in the center of the screen](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-greenfield)
 
 Once a solution model was agreed upon, my design team and I established checkpoints and rituals to ensure we were working towards a simple, lovable, and complete solution. This process involved several key elements:
 
@@ -45,7 +48,7 @@ Once a solution model was agreed upon, my design team and I established checkpoi
 
 ## Simplicity, Lovability, and Completeness
 
-![a screenshot of a web page with a table showing receipting and reconciliation items](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-slc.png)
+![a screenshot of a web page with a table showing receipting and reconciliation items](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-slc)
 
 Under my leadership, the team excelled at extracting complex accounting flows and transformed them into seamless, elegant designs.
 
@@ -55,7 +58,7 @@ I encouraged my team to unpack ambiguous questions, guiding them to understand t
 
 ## Reducing Risk and Optimising Growth
 
-![a man sitting at a desk with a laptop and another man sitting at a desk in front of him during user testing](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-feedback.png)
+![a man sitting at a desk with a laptop and another man sitting at a desk in front of him during user testing](https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/homtrust-feedback)
 
 The outcome of our collective efforts was the empowerment of customers to carry out end-to-end accounting functions more effectively than before. This achievement not only rekindled trust among existing clients but also allowed the business to refocus on its growth and business goals.
 

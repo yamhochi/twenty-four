@@ -23,7 +23,8 @@ post.data.coverImage &&(
 		class="object-cover w-[112px] h-[125px] overflow-hidden"
 		loading="eager"
 		fetchpriority="high"
-		width="560"
+		width={post.data.coverImage.width}
+		height={post.data.coverImage.height}
 	/>)
 	
 }

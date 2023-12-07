@@ -4,8 +4,11 @@ description: "Empowering creators with tools to grow their audience"
 publishDate: "30 Oct 2022"
 tags: ["showcase"]
 coverImage:
-  src: "./vocal-landing.png"
+  # src: "./vocal-landing.png"
+  src: "https://res.cloudinary.com/ddgt1wiwm/image/upload/f_auto,q_auto/v1/twenty-four-assets/vocal-landing"
   alt: "two iphone screens with the words vocal on the screen and the text vocal on the back of the phone"
+  width: "1280"
+  height: "1450"
 draft: false
 ---
 
