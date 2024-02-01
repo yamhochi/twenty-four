@@ -29,7 +29,7 @@
 		"@resvg/resvg-js": "^2.6.0",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/typography": "^0.5.10",
-		"@types/eslint": "^8.56.0",
+		"@types/eslint": "^8.56.2",
 		"@typescript-eslint/eslint-plugin": "^6.17.0",
 		"@typescript-eslint/parser": "^6.17.0",
 		"astro-eslint-parser": "^0.16.0",
