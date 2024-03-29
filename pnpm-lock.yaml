@@ -110,7 +110,7 @@ devDependencies:
     specifier: 0.13.0
     version: 0.13.0
   prettier-plugin-tailwindcss:
-    specifier: ^0.5.10
+    specifier: ^0.5.11
     version: 0.5.13(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
   reading-time:
     specifier: ^1.5.0
