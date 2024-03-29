@@ -12,19 +12,19 @@
 		"check": "astro check"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^1.1.5",
+		"@astrojs/mdx": "^2.2.2",
 		"@astrojs/prefetch": "^0.4.1",
-		"@astrojs/rss": "^4.0.1",
-		"@astrojs/sitemap": "^3.0.4",
+		"@astrojs/rss": "^4.0.5",
+		"@astrojs/sitemap": "^3.1.2",
 		"@astrojs/tailwind": "^5.1.0",
-		"astro": "3.6.4",
+		"astro": "4.5.12",
 		"astro-icon": "^0.8.1",
 		"satori": "0.10.13",
 		"satori-html": "^0.3.2",
 		"sharp": "^0.33.2"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.3.4",
+		"@astrojs/check": "^0.5.10",
 		"@pagefind/default-ui": "^1.0.4",
 		"@resvg/resvg-js": "^2.6.0",
 		"@tailwindcss/aspect-ratio": "^0.4.2",
