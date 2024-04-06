@@ -249,8 +249,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/rss/4.0.5:
-    resolution: {integrity: sha512-IyJVL6z09AQtxbgLaAwebT3T5YKe4oTHDesqydJv1KLHw+zEzzMCFuuNsEyxjiqu7df9+DDCpDXLj/WRiEUXvw==}
+  /@astrojs/rss@4.0.1:
+    resolution: {integrity: sha512-fzXWsrAp17atO02OZJETM8e8McRz+dNWzMeO7ENb6xgod2nWj5mH/auPBFs1a9FzMUi1nOQmzSPHO1hxZZpkwQ==}
     dependencies:
       fast-xml-parser: 4.3.6
       kleur: 4.1.5
