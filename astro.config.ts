@@ -1,4 +1,4 @@
-import { defineConfig, squooshImageService } from "astro/config";
+import { defineConfig } from "astro/config";
 import fs from "fs";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
@@ -29,7 +29,6 @@ export default defineConfig({
 	],
 	image: {
 		domains: ["webmention.io"],
-		service: squooshImageService(),
 	},
 	vite: {
 		plugins: [rawFonts([".ttf"])],
