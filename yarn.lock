@@ -170,13 +170,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/rss@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@astrojs/rss@npm:4.0.1"
+"@astrojs/rss@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "@astrojs/rss@npm:4.0.5"
   dependencies:
     fast-xml-parser: "npm:^4.2.7"
     kleur: "npm:^4.1.5"
-  checksum: 10c0/f800f67e79fd93a6c7f1380873dbcbc6283500b8429ca5c4cd442176866b556a5b4467c3248b3775b57e0e9d0513275e5a468486f7424d21a4e4f7b2b8c5c83d
+  checksum: 10c0/b8dfe1a9121101b8554e37f9c2e0f7c4f6a06958fade69a88fb43bfea896f98d65c303955641274ff2c4152c9834e957228e4f0ae6fc7fb62b65fb174978f733
   languageName: node
   linkType: hard
 
@@ -2173,7 +2173,7 @@ __metadata:
     "@astrojs/check": "npm:^0.3.4"
     "@astrojs/mdx": "npm:^1.1.5"
     "@astrojs/prefetch": "npm:^0.4.1"
-    "@astrojs/rss": "npm:^4.0.1"
+    "@astrojs/rss": "npm:^4.0.5"
     "@astrojs/sitemap": "npm:^3.1.1"
     "@astrojs/tailwind": "npm:^5.1.0"
     "@pagefind/default-ui": "npm:^1.0.4"
