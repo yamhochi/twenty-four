@@ -937,12 +937,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/mdi@npm:^1.1.65":
-  version: 1.1.65
-  resolution: "@iconify-json/mdi@npm:1.1.65"
+"@iconify-json/mdi@npm:^1.1.67":
+  version: 1.1.67
+  resolution: "@iconify-json/mdi@npm:1.1.67"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: 10c0/e46e3c64ab6b488df558c314f05171f88fc6ef00f91b1a24fad0b499d72fd67e222967cad1d606bc8b1d0f08149dbb131b1eb2e29bb42934e5df8686a5b20495
+  checksum: 10c0/67387d1a0728dc738f4ed153091f1ed2424fddb06d803e57031c563fec70f09fbcfb5e406e59ee2bcaee7c7edbc05835e77e6a898f5fba03f2406a739cdefd3b
   languageName: node
   linkType: hard
 
@@ -2348,7 +2348,7 @@ __metadata:
     "@astrojs/rss": "npm:^4.0.5"
     "@astrojs/sitemap": "npm:^3.1.1"
     "@astrojs/tailwind": "npm:^5.1.0"
-    "@iconify-json/mdi": "npm:^1.1.65"
+    "@iconify-json/mdi": "npm:^1.1.67"
     "@pagefind/default-ui": "npm:^1.0.4"
     "@resvg/resvg-js": "npm:^2.6.0"
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
