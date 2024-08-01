@@ -63,13 +63,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^1.5.5":
-  version: 1.8.2
-  resolution: "@astrojs/compiler@npm:1.8.2"
-  checksum: 10c0/8cb32dec9d1447032421eea728e48cc55901f32872de84621f3da1b5cc27f22d5eef1cd37199f752e85da8d21353580a4bacabfb21ebbb3fdae4db8e1d5297aa
-  languageName: node
-  linkType: hard
-
 "@astrojs/compiler@npm:^2.0.0, @astrojs/compiler@npm:^2.3.0":
   version: 2.3.2
   resolution: "@astrojs/compiler@npm:2.3.2"
@@ -81,6 +74,13 @@ __metadata:
   version: 2.7.1
   resolution: "@astrojs/compiler@npm:2.7.1"
   checksum: 10c0/e0fc7bde31dafe318ea47859d2277a5ea7fb1b924c72febfdb64e5572ea47a8e028ef110e75b24e6e2a53423a926230420955039c9688baac1c5ab42b25e14dc
+  languageName: node
+  linkType: hard
+
+"@astrojs/compiler@npm:^2.9.1":
+  version: 2.10.1
+  resolution: "@astrojs/compiler@npm:2.10.1"
+  checksum: 10c0/0825c8e540fedb0fafd203eeedd7352e33439a4e578a3dec6520d49b291db48bd30e7f0e13fbbdc17f315c5b34ce7faf46f5bbca9c2be2fde4f3e47ede1784e6
   languageName: node
   linkType: hard
 
@@ -2373,7 +2373,7 @@ __metadata:
     postcss-html: "npm:^1.6.0"
     postcss-import: "npm:^16.1.0"
     prettier: "npm:^3.2.5"
-    prettier-plugin-astro: "npm:0.12.3"
+    prettier-plugin-astro: "npm:0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.5.11"
     reading-time: "npm:^1.5.0"
     remark-unwrap-images: "npm:^4.0.0"
@@ -7783,14 +7783,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:0.12.3":
-  version: 0.12.3
-  resolution: "prettier-plugin-astro@npm:0.12.3"
+"prettier-plugin-astro@npm:0.14.1":
+  version: 0.14.1
+  resolution: "prettier-plugin-astro@npm:0.14.1"
   dependencies:
-    "@astrojs/compiler": "npm:^1.5.5"
+    "@astrojs/compiler": "npm:^2.9.1"
     prettier: "npm:^3.0.0"
     sass-formatter: "npm:^0.7.6"
-  checksum: 10c0/6b07f86855fe742aa3ba32f87d4bd49365f182ee8d28e94e0f1cbc524c7fa49cef48545d5cbaccd3502cd872f1e085b03b2bd3371b9ad98e5329624d330950ad
+  checksum: 10c0/f812607d422ff36df1bf58534a96590a861dedf41e70f8f36fa9546b91def65b17f4507e1c9212dab56cbbae2f4ab5ff6e7e31370b9198261360c6444daa297c
   languageName: node
   linkType: hard
 
