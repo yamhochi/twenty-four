@@ -17,7 +17,7 @@
 		"@astrojs/sitemap": "^3.1.1",
 		"@astrojs/tailwind": "^5.1.0",
 		"@iconify-json/mdi": "^1.1.65",
-		"astro": "3.6.4",
+		"astro": "4.15.1",
 		"astro-icon": "^1.1.0",
 		"satori": "0.10.13",
 		"satori-html": "^0.3.2",
