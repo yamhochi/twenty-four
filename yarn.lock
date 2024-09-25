@@ -63,14 +63,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^1.5.5":
-  version: 1.8.2
-  resolution: "@astrojs/compiler@npm:1.8.2"
-  checksum: 10c0/8cb32dec9d1447032421eea728e48cc55901f32872de84621f3da1b5cc27f22d5eef1cd37199f752e85da8d21353580a4bacabfb21ebbb3fdae4db8e1d5297aa
-  languageName: node
-  linkType: hard
-
-"@astrojs/compiler@npm:^2.0.0":
+"@astrojs/compiler@npm:^2.0.0, @astrojs/compiler@npm:^2.3.0":
   version: 2.3.2
   resolution: "@astrojs/compiler@npm:2.3.2"
   checksum: 10c0/e883e5d8c1a314b32e5435fe774d6b65c43a9d9b986d5540dbeb95a21a180a9cf9c095c9abe4bfc9d925f9db76862d1a345e40b3c85a121d00daf84b123286cb
@@ -91,10 +84,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.4.1":
-  version: 0.4.1
-  resolution: "@astrojs/internal-helpers@npm:0.4.1"
-  checksum: 10c0/1545eb29994b8bf1dfa95d953f7fb23b52c1e1a3daefc2f39c032b2b0ff1bad5dde8ac7b2694d1f0c9f8f52f8d1f2d645c7e88969bca392fc22058674192b070
+"@astrojs/compiler@npm:^2.9.1":
+  version: 2.10.1
+  resolution: "@astrojs/compiler@npm:2.10.1"
+  checksum: 10c0/0825c8e540fedb0fafd203eeedd7352e33439a4e578a3dec6520d49b291db48bd30e7f0e13fbbdc17f315c5b34ce7faf46f5bbca9c2be2fde4f3e47ede1784e6
+  languageName: node
+  linkType: hard
+
+"@astrojs/internal-helpers@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@astrojs/internal-helpers@npm:0.2.1"
+  checksum: 10c0/226c99a70e32d5aa14d01614d873696b32a36be8dd6cdaedfe3dca45308a98ba7b3635fe962d41298aa08121bcaefada1fd632075f70daf9bea2b4bddcf6c721
   languageName: node
   linkType: hard
 
@@ -2768,7 +2768,7 @@ __metadata:
     postcss-html: "npm:^1.7.0"
     postcss-import: "npm:^16.1.0"
     prettier: "npm:^3.2.5"
-    prettier-plugin-astro: "npm:0.12.3"
+    prettier-plugin-astro: "npm:0.14.1"
     prettier-plugin-tailwindcss: "npm:^0.5.11"
     reading-time: "npm:^1.5.0"
     remark-unwrap-images: "npm:^4.0.0"
@@ -8582,14 +8582,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:0.12.3":
-  version: 0.12.3
-  resolution: "prettier-plugin-astro@npm:0.12.3"
+"prettier-plugin-astro@npm:0.14.1":
+  version: 0.14.1
+  resolution: "prettier-plugin-astro@npm:0.14.1"
   dependencies:
-    "@astrojs/compiler": "npm:^1.5.5"
+    "@astrojs/compiler": "npm:^2.9.1"
     prettier: "npm:^3.0.0"
     sass-formatter: "npm:^0.7.6"
-  checksum: 10c0/6b07f86855fe742aa3ba32f87d4bd49365f182ee8d28e94e0f1cbc524c7fa49cef48545d5cbaccd3502cd872f1e085b03b2bd3371b9ad98e5329624d330950ad
+  checksum: 10c0/f812607d422ff36df1bf58534a96590a861dedf41e70f8f36fa9546b91def65b17f4507e1c9212dab56cbbae2f4ab5ff6e7e31370b9198261360c6444daa297c
   languageName: node
   linkType: hard
 
