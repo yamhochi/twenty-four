@@ -29,10 +29,13 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: [...fontFamily.sans],
+				// sans: [...fontFamily.sans],
 				// sans:  ['"Noto Sans"', 'sans-serif'],
 				serif: [...fontFamily.serif],
 				mono: [...fontFamily.mono],
+				"custom-styled": ['"Space Grotesk"', 'sans-serif'],
+
+
 			},
 			transitionProperty: {
 				height: "height",
