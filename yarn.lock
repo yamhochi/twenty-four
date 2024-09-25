@@ -855,12 +855,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/mdi@npm:^1.1.65":
-  version: 1.1.65
-  resolution: "@iconify-json/mdi@npm:1.1.65"
+"@iconify-json/mdi@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@iconify-json/mdi@npm:1.2.0"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: 10c0/e46e3c64ab6b488df558c314f05171f88fc6ef00f91b1a24fad0b499d72fd67e222967cad1d606bc8b1d0f08149dbb131b1eb2e29bb42934e5df8686a5b20495
+  checksum: 10c0/e2f9d5b3e68a1bb9d1096feddac52b6cf0386a832209d69dfaf24671c38021bf1199d8154d416840c8eda99cc966ae3c378c02696d5928837d90560328d806dc
   languageName: node
   linkType: hard
 
@@ -2743,7 +2743,7 @@ __metadata:
     "@astrojs/rss": "npm:^4.0.7"
     "@astrojs/sitemap": "npm:^3.1.6"
     "@astrojs/tailwind": "npm:^5.1.0"
-    "@iconify-json/mdi": "npm:^1.1.65"
+    "@iconify-json/mdi": "npm:^1.2.0"
     "@pagefind/default-ui": "npm:^1.1.0"
     "@resvg/resvg-js": "npm:^2.6.2"
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
@@ -9731,21 +9731,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stdin-discarder@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "stdin-discarder@npm:0.1.0"
-  dependencies:
-    bl: "npm:^5.0.0"
-  checksum: 10c0/3bbf7f8107e49c05b4a46bd739afdd34605cf1f06a038c8b2a33d034bf146344fc0ebc5149df1e6422510dd219971a220f25b1102413ef5128fe267683fbef9d
-  languageName: node
-  linkType: hard
-
-"stream-parser@npm:~0.3.1":
-  version: 0.3.1
-  resolution: "stream-parser@npm:0.3.1"
-  dependencies:
-    debug: "npm:2"
-  checksum: 10c0/585508801423bd6c53f6dda9d78e4b743a08ab72e8e2680431fa855ef950e59c849ec2838f2a00c59af655ff8463e90f660f9169a816e63a3ca159cf713bae5c
+"stdin-discarder@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "stdin-discarder@npm:0.2.2"
+  checksum: 10c0/c78375e82e956d7a64be6e63c809c7f058f5303efcaf62ea48350af072bacdb99c06cba39209b45a071c1acbd49116af30df1df9abb448df78a6005b72f10537
   languageName: node
   linkType: hard
 
@@ -9753,16 +9742,6 @@ __metadata:
   version: 2.0.0
   resolution: "stream-replace-string@npm:2.0.0"
   checksum: 10c0/6cdf6108c57a869c1282dece0728bd7a8e314855bee71992436460192cdf46b3c976451e1e114716af209b2bfefa0e7e4581ca0eebc330d9dfcde341a72d50af
-  languageName: node
-  linkType: hard
-
-"streamx@npm:^2.15.0":
-  version: 2.15.5
-  resolution: "streamx@npm:2.15.5"
-  dependencies:
-    fast-fifo: "npm:^1.1.0"
-    queue-tick: "npm:^1.0.1"
-  checksum: 10c0/7998d1fa3324131ed94efc4a4e8b22e0f60267b21d8f8fac8c605eaa1a6d6358adbc38c35b407be0eb8cc09a223c641962afb0db29ecbe92118242118946d93c
   languageName: node
   linkType: hard
 
@@ -11188,13 +11167,6 @@ __metadata:
     typescript: ^4.9.4 || ^5.0.2
     zod: ^3
   checksum: 10c0/69375a29b04ac93fcfb7df286984a287c06219b51a0a70f15088baa662378d2078f4f96730f0090713df9172f02fe84ba9767cd2e1fbbc55f7d48b2190d9b0d9
-  languageName: node
-  linkType: hard
-
-"zod@npm:^3.22.4":
-  version: 3.22.4
-  resolution: "zod@npm:3.22.4"
-  checksum: 10c0/7578ab283dac0eee66a0ad0fc4a7f28c43e6745aadb3a529f59a4b851aa10872b3890398b3160f257f4b6817b4ce643debdda4fb21a2c040adda7862cab0a587
   languageName: node
   linkType: hard
 
